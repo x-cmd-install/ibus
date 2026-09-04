@@ -7,7 +7,7 @@ about:
   head: 1a331e6
   archived: false
   latestVersion: 1.5.35-beta2
-  collectedAt: 2026-09-04T19:22:50Z
+  collectedAt: 2026-09-04T21:12:40Z
 timeline:
   created: 2010-09-08
   lastCommit: 2026-08-30
@@ -88,6 +88,99 @@ total:
   openIssue: 256
   commit: 3599
 ---
+path: /home/runner/.x-repo/github.com/ibus/ibus
+collectedAt: 2026-09-04T21:12:42Z
+loc:
+  C:
+    code: 56945
+    comments: 6998
+    blanks: 8020
+    files: 106
+  CHeader:
+    code: 17716
+    comments: 11833
+    blanks: 1721
+    files: 82
+  Autoconf:
+    code: 13330
+    comments: 145
+    blanks: 180
+    files: 36
+  Vala:
+    code: 11137
+    comments: 1340
+    blanks: 1613
+    files: 27
+  Python:
+    code: 10305
+    comments: 1784
+    blanks: 1765
+    files: 73
+  Svg:
+    code: 5062
+    comments: 4
+    blanks: 155
+    files: 6
+  Automake:
+    code: 2612
+    comments: 989
+    blanks: 506
+    files: 40
+  Xml:
+    code: 2051
+    comments: 71
+    blanks: 123
+    files: 8
+  Meson:
+    code: 1993
+    comments: 84
+    blanks: 250
+    files: 35
+  Sh:
+    code: 1246
+    comments: 178
+    blanks: 133
+    files: 4
+  M4:
+    code: 352
+    comments: 92
+    blanks: 31
+    files: 6
+  Bash:
+    code: 210
+    comments: 44
+    blanks: 36
+    files: 2
+  Yaml:
+    code: 165
+    comments: 167
+    blanks: 0
+    files: 1
+  Json:
+    code: 160
+    comments: 0
+    blanks: 0
+    files: 3
+  Makefile:
+    code: 140
+    comments: 57
+    blanks: 9
+    files: 1
+  Perl:
+    code: 61
+    comments: 23
+    blanks: 25
+    files: 1
+  Text:
+    code: 0
+    comments: 26
+    blanks: 1
+    files: 1
+total:
+  code: 123485
+  comments: 23835
+  blanks: 14568
+  files: 432
 ---
 date: "2026-08-24"
 repo:
