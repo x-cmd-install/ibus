@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 59 · **Open PRs**: 14 · **Closed issues**: 2374 · **Open issues**: 257 · **Commits**: 3606
+- **Releases**: 71 · **Merged PRs**: 59 · **Open PRs**: 15 · **Closed issues**: 2374 · **Open issues**: 257 · **Commits**: 3606
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 3 | 3 | 4 | 5 | 15 |
-| last60d | 2026-07-12 | 2 | 6 | 3 | 5 | 8 | 47 |
-| 90d | 2026-06-12 | 3 | 7 | 3 | 8 | 11 | 56 |
-| last180d | 2026-03-14 | 6 | 27 | 6 | 23 | 14 | 97 |
-| 360d | 2025-09-15 | 8 | 34 | 8 | 50 | 23 | 186 |
-| last720d | 2024-09-20 | 11 | 38 | 11 | 120 | 31 | 329 |
+| 30d | 2026-08-12 | 2 | 3 | 4 | 4 | 5 | 15 |
+| last60d | 2026-07-13 | 2 | 6 | 4 | 5 | 8 | 47 |
+| 90d | 2026-06-13 | 3 | 7 | 4 | 8 | 11 | 56 |
+| last180d | 2026-03-15 | 6 | 27 | 7 | 22 | 14 | 97 |
+| 360d | 2025-09-16 | 8 | 34 | 9 | 50 | 23 | 186 |
+| last720d | 2024-09-21 | 11 | 38 | 12 | 120 | 31 | 329 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:18:38Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:16:21Z._
