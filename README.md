@@ -14,14 +14,14 @@ x install ibus
 
 ## Code insight
 
-Total: **123,558** lines of code across **324** files in the top 5 languages.
+Total: **123,527** lines of code across **324** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 56,979 | 7,006 | 8,021 | 106 |
 | CHeader | 17,716 | 11,833 | 1,721 | 82 |
-| Autoconf | 13,330 | 145 | 180 | 36 |
-| Vala | 11,142 | 1,340 | 1,613 | 27 |
+| Autoconf | 13,305 | 145 | 180 | 36 |
+| Vala | 11,144 | 1,343 | 1,613 | 27 |
 | Python | 10,320 | 1,784 | 1,767 | 73 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.5.35-beta2` (2026-04-03)
-- **Last commit**: 2026-09-07
+- **Last commit**: 2026-09-13
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 996 · **Forks**: 209 · **Open issues**: 2,631 · **Contributors**: 4
+- **Stars**: 996 · **Forks**: 208 · **Open issues**: 2,631 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 59 · **Open PRs**: 15 · **Closed issues**: 2374 · **Open issues**: 257 · **Commits**: 3606
+- **Releases**: 71 · **Merged PRs**: 60 · **Open PRs**: 14 · **Closed issues**: 2379 · **Open issues**: 252 · **Commits**: 3614
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 1 | 3 | 4 | 4 | 5 | 15 |
-| last60d | 2026-07-14 | 2 | 6 | 4 | 5 | 8 | 47 |
-| 90d | 2026-06-14 | 3 | 7 | 4 | 8 | 11 | 56 |
-| last180d | 2026-03-16 | 6 | 27 | 7 | 22 | 14 | 97 |
-| 360d | 2025-09-17 | 8 | 34 | 9 | 49 | 23 | 186 |
-| last720d | 2024-09-22 | 11 | 38 | 12 | 120 | 31 | 329 |
+| 30d | 2026-08-14 | 1 | 4 | 3 | 3 | 5 | 23 |
+| last60d | 2026-07-15 | 2 | 7 | 3 | 5 | 8 | 51 |
+| 90d | 2026-06-15 | 3 | 8 | 3 | 8 | 11 | 58 |
+| last180d | 2026-03-17 | 5 | 28 | 6 | 23 | 13 | 104 |
+| 360d | 2025-09-18 | 8 | 35 | 8 | 54 | 18 | 190 |
+| last720d | 2024-09-23 | 11 | 39 | 11 | 125 | 26 | 337 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **303** distros on [repology.org](https://repology.org/project/ibus). **68** are ✅ on the latest upstream release, **212** are ⚠️ on an older version.
+Reported by **302** distros on [repology.org](https://repology.org/project/ibus). **67** are ✅ on the latest upstream release, **212** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T05:02:42Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:29:13Z._
