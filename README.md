@@ -30,9 +30,9 @@ Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 1/24 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 1/17 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 4 | 3 | 3 | 6 | 23 |
-| last60d | 2026-07-16 | 2 | 7 | 3 | 5 | 9 | 51 |
-| 90d | 2026-06-16 | 3 | 7 | 3 | 8 | 11 | 58 |
-| last180d | 2026-03-18 | 5 | 27 | 6 | 23 | 14 | 104 |
-| 360d | 2025-09-19 | 8 | 35 | 8 | 54 | 19 | 190 |
-| last720d | 2024-09-24 | 11 | 39 | 11 | 125 | 27 | 337 |
+| 30d | 2026-08-16 | 1 | 4 | 3 | 3 | 5 | 23 |
+| last60d | 2026-07-17 | 2 | 7 | 3 | 5 | 9 | 51 |
+| 90d | 2026-06-17 | 3 | 7 | 3 | 8 | 11 | 58 |
+| last180d | 2026-03-19 | 5 | 27 | 6 | 23 | 14 | 104 |
+| 360d | 2025-09-20 | 7 | 35 | 8 | 54 | 19 | 190 |
+| last720d | 2024-09-25 | 11 | 39 | 11 | 125 | 27 | 337 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T05:27:30Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:44:41Z._
