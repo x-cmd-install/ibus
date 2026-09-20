@@ -4,7 +4,7 @@
 
 Intelligent Input Bus for Linux/Unix
 
-![ibus](https://repo.x-cmd.io/ibus.svg)
+[![x-cmd/install — ibus Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ibus.svg)](https://x-cmd.com/install/ibus)
 
 ## Install
 
@@ -14,14 +14,14 @@ x install ibus
 
 ## Code insight
 
-Total: **123,527** lines of code across **324** files in the top 5 languages.
+Total: **123,640** lines of code across **324** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 56,979 | 7,006 | 8,021 | 106 |
-| CHeader | 17,716 | 11,833 | 1,721 | 82 |
+| C | 57,002 | 7,021 | 8,021 | 106 |
+| CHeader | 17,723 | 11,854 | 1,721 | 82 |
 | Autoconf | 13,305 | 145 | 180 | 36 |
-| Vala | 11,144 | 1,343 | 1,613 | 27 |
+| Vala | 11,215 | 1,343 | 1,617 | 27 |
 | Python | 10,320 | 1,784 | 1,767 | 73 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.5.35-beta2` (2026-04-03)
-- **Last commit**: 2026-09-13
+- **Last commit**: 2026-09-19
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 997 · **Forks**: 208 · **Open issues**: 2,633 · **Contributors**: 4
+- **Stars**: 997 · **Forks**: 210 · **Open issues**: 2,636 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 60 · **Open PRs**: 13 · **Closed issues**: 2379 · **Open issues**: 254 · **Commits**: 3614
+- **Releases**: 71 · **Merged PRs**: 62 · **Open PRs**: 14 · **Closed issues**: 2379 · **Open issues**: 257 · **Commits**: 3618
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 4 | 3 | 2 | 6 | 23 |
-| last60d | 2026-07-20 | 2 | 7 | 3 | 5 | 9 | 51 |
-| 90d | 2026-06-20 | 2 | 7 | 3 | 7 | 12 | 58 |
-| last180d | 2026-03-22 | 5 | 27 | 5 | 23 | 15 | 104 |
-| 360d | 2025-09-23 | 7 | 35 | 7 | 54 | 20 | 190 |
-| last720d | 2024-09-28 | 11 | 38 | 10 | 124 | 28 | 337 |
+| 30d | 2026-08-21 | 1 | 6 | 4 | 2 | 9 | 19 |
+| last60d | 2026-07-22 | 2 | 9 | 4 | 5 | 12 | 55 |
+| 90d | 2026-06-22 | 2 | 9 | 4 | 7 | 15 | 61 |
+| last180d | 2026-03-24 | 5 | 16 | 4 | 20 | 18 | 105 |
+| 360d | 2025-09-25 | 7 | 37 | 8 | 52 | 23 | 193 |
+| last720d | 2024-09-30 | 11 | 40 | 11 | 124 | 31 | 341 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:20:01Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:20:13Z._
