@@ -4,7 +4,7 @@
 
 Intelligent Input Bus for Linux/Unix
 
-[![x-cmd/install — ibus Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ibus.svg?lang=zh)](https://x-cmd.com/install/ibus)
+[![x-cmd/install — ibus Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ibus.svg?lang=zh)](https://x-cmd.com/install/ibus)
 
 ## 安装
 
@@ -14,25 +14,25 @@ x install ibus
 
 ## 代码洞察
 
-合计: **123,640** 行代码（覆盖前 5 种语言、共 **324** 个文件）。
+合计: **123,816** 行代码（覆盖前 5 种语言、共 **325** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 57,002 | 7,021 | 8,021 | 106 |
+| C | 57,159 | 7,104 | 8,042 | 107 |
 | CHeader | 17,723 | 11,854 | 1,721 | 82 |
 | Autoconf | 13,305 | 145 | 180 | 36 |
 | Vala | 11,215 | 1,343 | 1,617 | 27 |
-| Python | 10,320 | 1,784 | 1,767 | 73 |
+| Python | 10,321 | 1,784 | 1,767 | 73 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.4 / 10**
+总评分: **3.6 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 1/17 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -42,37 +42,37 @@ x install ibus
 
 ## 发布
 
-- **最新版本**: `1.5.35-beta2` (2026-04-03)
-- **最近提交**: 2026-09-19
+- **最新版本**: `1.5.35-rc1` (2026-09-22)
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 997 · **Fork**: 210 · **开放 issue**: 2,636 · **贡献者**: 4
+- **Star**: 998 · **Fork**: 210 · **开放 issue**: 2,636 · **贡献者**: 4
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 62 · **开放 PR**: 14 · **已关闭 issue**: 2379 · **开放 issue**: 257 · **提交数**: 3618
+- **发布数**: 70 · **已合并 PR**: 64 · **开放 PR**: 12 · **已关闭 issue**: 2381 · **开放 issue**: 255 · **提交数**: 3621
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 5 | 3 | 2 | 9 | 19 |
-| last60d | 2026-07-24 | 2 | 9 | 4 | 4 | 12 | 55 |
-| 90d | 2026-06-24 | 2 | 9 | 4 | 7 | 15 | 61 |
-| last180d | 2026-03-26 | 5 | 16 | 4 | 19 | 18 | 105 |
-| 360d | 2025-09-27 | 7 | 37 | 8 | 52 | 23 | 193 |
-| last720d | 2024-10-02 | 11 | 40 | 11 | 124 | 31 | 341 |
+| 30d | 2026-08-24 | 2 | 7 | 1 | 4 | 7 | 22 |
+| last60d | 2026-07-25 | 3 | 11 | 2 | 6 | 10 | 58 |
+| 90d | 2026-06-25 | 3 | 11 | 2 | 9 | 13 | 64 |
+| last180d | 2026-03-27 | 4 | 17 | 2 | 21 | 16 | 108 |
+| 360d | 2025-09-28 | 6 | 39 | 6 | 54 | 21 | 196 |
+| last720d | 2024-10-03 | 10 | 42 | 9 | 126 | 29 | 344 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [ibus-1.5.34-rc2.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.34/ibus-1.5.34-rc2.tar.gz) | 4.3 MiB | `native/unknown` |
-| [ibus-1.5.34-rc2.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.34/ibus-1.5.34-rc2.tar.gz.sum) | 380 B | `other` |
-| [ibus-1.5.34.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.34/ibus-1.5.34.tar.gz) | 4.3 MiB | `native/unknown` |
-| [ibus-1.5.34.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.34/ibus-1.5.34.tar.gz.sum) | 364 B | `other` |
+| [ibus-1.5.35-rc1.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.gz) | 4.4 MiB | `native/unknown` |
+| [ibus-1.5.35-rc1.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.gz.sum) | 380 B | `other` |
+| [ibus-1.5.35-rc1.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz) | 1.2 MiB | `other` |
+| [ibus-1.5.35-rc1.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz.sha256sum) | 89 B | `other` |
 
 ## 改进这些数据
 
@@ -83,4 +83,4 @@ ibus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:21:26Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:25:48Z._
