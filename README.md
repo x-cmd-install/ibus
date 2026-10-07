@@ -30,9 +30,9 @@ Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 64 · **Open PRs**: 15 · **Closed issues**: 2386 · **Open issues**: 253 · **Commits**: 3621
+- **Releases**: 70 · **Merged PRs**: 64 · **Open PRs**: 16 · **Closed issues**: 2386 · **Open issues**: 253 · **Commits**: 3621
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 1 | 4 | 4 | 4 | 5 | 15 |
-| last60d | 2026-08-07 | 3 | 8 | 5 | 10 | 8 | 35 |
-| 90d | 2026-07-08 | 3 | 11 | 5 | 11 | 10 | 62 |
-| last180d | 2026-04-09 | 3 | 16 | 5 | 21 | 13 | 105 |
-| 360d | 2025-10-11 | 5 | 39 | 9 | 59 | 19 | 184 |
-| last720d | 2024-10-16 | 10 | 42 | 12 | 130 | 27 | 341 |
+| 30d | 2026-09-07 | 1 | 4 | 5 | 4 | 5 | 15 |
+| last60d | 2026-08-08 | 3 | 8 | 6 | 10 | 8 | 35 |
+| 90d | 2026-07-09 | 3 | 11 | 6 | 11 | 10 | 62 |
+| last180d | 2026-04-10 | 3 | 16 | 6 | 21 | 13 | 105 |
+| 360d | 2025-10-12 | 5 | 39 | 10 | 56 | 19 | 184 |
+| last720d | 2024-10-17 | 10 | 42 | 13 | 130 | 27 | 341 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T06:50:42Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T06:26:05Z._
