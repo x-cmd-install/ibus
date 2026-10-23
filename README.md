@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,002 · **Forks**: 210 · **Open issues**: 2,643 · **Contributors**: 4
+- **Stars**: 1,004 · **Forks**: 210 · **Open issues**: 2,643 · **Contributors**: 4
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 0 | 5 | 2 | 5 | 0 |
-| last60d | 2026-08-23 | 2 | 7 | 6 | 7 | 11 | 25 |
-| 90d | 2026-07-24 | 3 | 11 | 7 | 10 | 13 | 58 |
-| last180d | 2026-04-25 | 3 | 14 | 7 | 17 | 17 | 104 |
-| 360d | 2025-10-27 | 5 | 39 | 11 | 54 | 22 | 180 |
-| last720d | 2024-11-01 | 9 | 42 | 13 | 126 | 30 | 321 |
+| 30d | 2026-09-23 | 0 | 0 | 5 | 2 | 5 | 0 |
+| last60d | 2026-08-24 | 2 | 7 | 6 | 7 | 11 | 25 |
+| 90d | 2026-07-25 | 3 | 11 | 7 | 10 | 13 | 58 |
+| last180d | 2026-04-26 | 3 | 14 | 7 | 17 | 17 | 104 |
+| 360d | 2025-10-28 | 5 | 39 | 11 | 54 | 22 | 180 |
+| last720d | 2024-11-02 | 9 | 42 | 13 | 126 | 30 | 321 |
 
 ## Release assets
 
@@ -74,6 +74,24 @@ Lowest-scoring checks:
 | [ibus-1.5.35-rc1.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz) | 1.2 MiB | `other` |
 | [ibus-1.5.35-rc1.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz.sha256sum) | 89 B | `other` |
 
+## Distribution status
+
+Reported by **295** distros on [repology.org](https://repology.org/project/ibus). **63** are ✅ on the latest upstream release, **198** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.5.35~rc1` | devel |
+| Debian 14 | `1.5.35~rc1` | devel |
+| Debian 13 | `1.5.32` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.5.34~rc2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.5.29` | ⚠️ outdated |
+| Arch | `1.5.34` | ✅ latest |
+| Fedora rawhide | `1.5.35~rc1` | devel |
+| Nix unstable | `1.5.34` | ✅ latest |
+| Void | `1.5.32` | ⚠️ outdated |
+| Alpine edge | `1.5.35_beta2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.5.34` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ibus` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -83,4 +101,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:09:18Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:07:56Z._

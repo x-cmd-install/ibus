@@ -48,7 +48,7 @@ x install ibus
 
 ## 流行度
 
-- **Star**: 1,002 · **Fork**: 210 · **开放 issue**: 2,643 · **贡献者**: 4
+- **Star**: 1,004 · **Fork**: 210 · **开放 issue**: 2,643 · **贡献者**: 4
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install ibus
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 0 | 5 | 2 | 5 | 0 |
-| last60d | 2026-08-23 | 2 | 7 | 6 | 7 | 11 | 25 |
-| 90d | 2026-07-24 | 3 | 11 | 7 | 10 | 13 | 58 |
-| last180d | 2026-04-25 | 3 | 14 | 7 | 17 | 17 | 104 |
-| 360d | 2025-10-27 | 5 | 39 | 11 | 54 | 22 | 180 |
-| last720d | 2024-11-01 | 9 | 42 | 13 | 126 | 30 | 321 |
+| 30d | 2026-09-23 | 0 | 0 | 5 | 2 | 5 | 0 |
+| last60d | 2026-08-24 | 2 | 7 | 6 | 7 | 11 | 25 |
+| 90d | 2026-07-25 | 3 | 11 | 7 | 10 | 13 | 58 |
+| last180d | 2026-04-26 | 3 | 14 | 7 | 17 | 17 | 104 |
+| 360d | 2025-10-28 | 5 | 39 | 11 | 54 | 22 | 180 |
+| last720d | 2024-11-02 | 9 | 42 | 13 | 126 | 30 | 321 |
 
 ## Release 资产
 
@@ -74,6 +74,24 @@ x install ibus
 | [ibus-1.5.35-rc1.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz) | 1.2 MiB | `other` |
 | [ibus-1.5.35-rc1.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz.sha256sum) | 89 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/ibus) 上共有 **295** 个发行版报告此项目。**63** 个 ✅ 已是最新上游版本，**198** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.5.35~rc1` | devel |
+| Debian 14 | `1.5.35~rc1` | devel |
+| Debian 13 | `1.5.32` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.5.34~rc2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.5.29` | ⚠️ outdated |
+| Arch | `1.5.34` | ✅ latest |
+| Fedora rawhide | `1.5.35~rc1` | devel |
+| Nix unstable | `1.5.34` | ✅ latest |
+| Void | `1.5.32` | ⚠️ outdated |
+| Alpine edge | `1.5.35_beta2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.5.34` | ✅ latest |
+
 ## 改进这些数据
 
 ibus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `ibus` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -83,4 +101,4 @@ ibus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:09:19Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:07:57Z._
