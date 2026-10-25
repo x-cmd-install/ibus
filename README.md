@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 0 | 5 | 2 | 5 | 0 |
-| last60d | 2026-08-25 | 2 | 7 | 6 | 7 | 9 | 25 |
-| 90d | 2026-07-26 | 3 | 11 | 7 | 10 | 13 | 58 |
-| last180d | 2026-04-27 | 3 | 14 | 7 | 17 | 17 | 104 |
-| 360d | 2025-10-29 | 5 | 39 | 11 | 54 | 22 | 180 |
-| last720d | 2024-11-03 | 9 | 42 | 13 | 126 | 29 | 321 |
+| 30d | 2026-09-25 | 0 | 0 | 5 | 2 | 5 | 0 |
+| last60d | 2026-08-26 | 2 | 7 | 6 | 7 | 9 | 22 |
+| 90d | 2026-07-27 | 3 | 11 | 7 | 10 | 13 | 39 |
+| last180d | 2026-04-28 | 3 | 14 | 7 | 17 | 17 | 104 |
+| 360d | 2025-10-30 | 5 | 39 | 11 | 54 | 22 | 179 |
+| last720d | 2024-11-04 | 9 | 42 | 13 | 126 | 29 | 321 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:05:45Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T04:59:42Z._
