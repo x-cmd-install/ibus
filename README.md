@@ -31,8 +31,8 @@ Overall score: **3.6 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,005 · **Forks**: 209 · **Open issues**: 2,643 · **Contributors**: 4
+- **Stars**: 1,006 · **Forks**: 210 · **Open issues**: 2,644 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 64 · **Open PRs**: 17 · **Closed issues**: 2386 · **Open issues**: 257 · **Commits**: 3621
+- **Releases**: 70 · **Merged PRs**: 64 · **Open PRs**: 18 · **Closed issues**: 2386 · **Open issues**: 258 · **Commits**: 3621
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 0 | 5 | 2 | 5 | 0 |
-| last60d | 2026-08-27 | 1 | 5 | 6 | 6 | 9 | 22 |
-| 90d | 2026-07-28 | 3 | 11 | 7 | 10 | 13 | 39 |
-| last180d | 2026-04-29 | 3 | 14 | 7 | 17 | 17 | 104 |
-| 360d | 2025-10-31 | 5 | 39 | 11 | 54 | 22 | 179 |
-| last720d | 2024-11-05 | 9 | 42 | 13 | 126 | 29 | 321 |
+| 30d | 2026-09-27 | 0 | 0 | 5 | 2 | 6 | 0 |
+| last60d | 2026-08-28 | 1 | 5 | 7 | 6 | 10 | 22 |
+| 90d | 2026-07-29 | 3 | 11 | 8 | 10 | 14 | 39 |
+| last180d | 2026-04-30 | 3 | 14 | 8 | 17 | 18 | 104 |
+| 360d | 2025-11-01 | 5 | 39 | 12 | 53 | 23 | 179 |
+| last720d | 2024-11-06 | 9 | 42 | 14 | 126 | 30 | 321 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:01:47Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:34:56Z._

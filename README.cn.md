@@ -31,8 +31,8 @@ x install ibus
 评分最低的几项:
 
 - **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install ibus
 
 ## 流行度
 
-- **Star**: 1,005 · **Fork**: 209 · **开放 issue**: 2,643 · **贡献者**: 4
+- **Star**: 1,006 · **Fork**: 210 · **开放 issue**: 2,644 · **贡献者**: 4
 
 ## 累计统计
 
-- **发布数**: 70 · **已合并 PR**: 64 · **开放 PR**: 17 · **已关闭 issue**: 2386 · **开放 issue**: 257 · **提交数**: 3621
+- **发布数**: 70 · **已合并 PR**: 64 · **开放 PR**: 18 · **已关闭 issue**: 2386 · **开放 issue**: 258 · **提交数**: 3621
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 0 | 5 | 2 | 5 | 0 |
-| last60d | 2026-08-27 | 1 | 5 | 6 | 6 | 9 | 22 |
-| 90d | 2026-07-28 | 3 | 11 | 7 | 10 | 13 | 39 |
-| last180d | 2026-04-29 | 3 | 14 | 7 | 17 | 17 | 104 |
-| 360d | 2025-10-31 | 5 | 39 | 11 | 54 | 22 | 179 |
-| last720d | 2024-11-05 | 9 | 42 | 13 | 126 | 29 | 321 |
+| 30d | 2026-09-27 | 0 | 0 | 5 | 2 | 6 | 0 |
+| last60d | 2026-08-28 | 1 | 5 | 7 | 6 | 10 | 22 |
+| 90d | 2026-07-29 | 3 | 11 | 8 | 10 | 14 | 39 |
+| last180d | 2026-04-30 | 3 | 14 | 8 | 17 | 18 | 104 |
+| 360d | 2025-11-01 | 5 | 39 | 12 | 53 | 23 | 179 |
+| last720d | 2024-11-06 | 9 | 42 | 14 | 126 | 30 | 321 |
 
 ## Release 资产
 
@@ -101,4 +101,4 @@ ibus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261026.yml` · 2026-10-26T05:01:49Z._
+_数据快照: `data/card/261027.yml` · 2026-10-27T05:34:57Z._
