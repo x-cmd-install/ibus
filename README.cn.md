@@ -58,12 +58,12 @@ x install ibus
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 0 | 6 | 1 | 7 | 0 |
-| last60d | 2026-09-03 | 1 | 4 | 8 | 6 | 11 | 15 |
-| 90d | 2026-08-04 | 3 | 10 | 9 | 10 | 15 | 37 |
-| last180d | 2026-05-06 | 3 | 14 | 9 | 17 | 19 | 103 |
-| 360d | 2025-11-07 | 5 | 39 | 13 | 52 | 24 | 179 |
-| last720d | 2024-11-12 | 9 | 42 | 15 | 124 | 31 | 321 |
+| 30d | 2026-10-04 | 0 | 0 | 5 | 1 | 6 | 0 |
+| last60d | 2026-09-04 | 1 | 4 | 8 | 6 | 11 | 15 |
+| 90d | 2026-08-05 | 3 | 9 | 9 | 10 | 15 | 37 |
+| last180d | 2026-05-07 | 3 | 14 | 9 | 17 | 19 | 103 |
+| 360d | 2025-11-08 | 5 | 39 | 13 | 52 | 24 | 179 |
+| last720d | 2024-11-13 | 9 | 42 | 15 | 124 | 31 | 321 |
 
 ## Release 资产
 
@@ -76,7 +76,7 @@ x install ibus
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ibus) 上共有 **295** 个发行版报告此项目。**59** 个 ✅ 已是最新上游版本，**201** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ibus) 上共有 **295** 个发行版报告此项目。**58** 个 ✅ 已是最新上游版本，**201** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -90,7 +90,7 @@ x install ibus
 | Nix unstable | `1.5.34` | ✅ latest |
 | Void | `1.5.32` | ⚠️ outdated |
 | Alpine edge | `1.5.35_beta2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.5.34` | ✅ latest |
+| openSUSE Tumbleweed | `1.5.35~rc1` | devel |
 
 ## 改进这些数据
 
@@ -101,4 +101,4 @@ ibus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261102.yml` · 2026-11-02T06:29:23Z._
+_数据快照: `data/card/261103.yml` · 2026-11-03T07:23:18Z._
