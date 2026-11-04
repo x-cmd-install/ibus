@@ -30,9 +30,9 @@ Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,007 · **Forks**: 210 · **Open issues**: 2,645 · **Contributors**: 4
+- **Stars**: 1,007 · **Forks**: 212 · **Open issues**: 2,646 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 64 · **Open PRs**: 19 · **Closed issues**: 2386 · **Open issues**: 259 · **Commits**: 3621
+- **Releases**: 70 · **Merged PRs**: 64 · **Open PRs**: 21 · **Closed issues**: 2386 · **Open issues**: 260 · **Commits**: 3621
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 5 | 1 | 6 | 0 |
-| last60d | 2026-09-04 | 1 | 4 | 8 | 6 | 11 | 15 |
-| 90d | 2026-08-05 | 3 | 9 | 9 | 10 | 15 | 37 |
-| last180d | 2026-05-07 | 3 | 14 | 9 | 17 | 19 | 103 |
-| 360d | 2025-11-08 | 5 | 39 | 13 | 52 | 24 | 179 |
-| last720d | 2024-11-13 | 9 | 42 | 15 | 124 | 31 | 321 |
+| 30d | 2026-10-05 | 0 | 0 | 6 | 0 | 7 | 0 |
+| last60d | 2026-09-05 | 1 | 4 | 10 | 6 | 12 | 15 |
+| 90d | 2026-08-06 | 3 | 8 | 11 | 10 | 15 | 37 |
+| last180d | 2026-05-08 | 3 | 14 | 11 | 17 | 20 | 103 |
+| 360d | 2025-11-09 | 5 | 39 | 15 | 51 | 25 | 179 |
+| last720d | 2024-11-14 | 9 | 42 | 17 | 124 | 32 | 321 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:23:16Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:46:46Z._
