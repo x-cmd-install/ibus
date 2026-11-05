@@ -42,9 +42,9 @@ x install ibus
 
 ## 发布
 
-- **最新版本**: `1.5.35-rc1` (2026-09-22)
+- **最新版本**: `1.5.35` (2026-09-22)
 - **最近提交**: 2026-09-22
-- **Release 含资产**: 4 个
+- **Release 含资产**: 8 个
 
 ## 流行度
 
@@ -58,39 +58,43 @@ x install ibus
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 6 | 0 | 7 | 0 |
-| last60d | 2026-09-05 | 1 | 4 | 10 | 6 | 12 | 15 |
-| 90d | 2026-08-06 | 3 | 8 | 11 | 10 | 15 | 37 |
-| last180d | 2026-05-08 | 3 | 14 | 11 | 17 | 20 | 103 |
-| 360d | 2025-11-09 | 5 | 39 | 15 | 51 | 25 | 179 |
-| last720d | 2024-11-14 | 9 | 42 | 17 | 124 | 32 | 321 |
+| 30d | 2026-10-06 | 0 | 0 | 5 | 0 | 7 | 0 |
+| last60d | 2026-09-06 | 1 | 4 | 10 | 4 | 12 | 15 |
+| 90d | 2026-08-07 | 3 | 8 | 11 | 10 | 15 | 37 |
+| last180d | 2026-05-09 | 3 | 14 | 11 | 17 | 20 | 103 |
+| 360d | 2025-11-10 | 5 | 39 | 14 | 51 | 25 | 179 |
+| last720d | 2024-11-15 | 9 | 42 | 17 | 123 | 32 | 321 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [ibus-1.5.35-rc1.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.gz) | 4.4 MiB | `native/unknown` |
-| [ibus-1.5.35-rc1.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.gz.sum) | 380 B | `other` |
-| [ibus-1.5.35-rc1.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz) | 1.2 MiB | `other` |
-| [ibus-1.5.35-rc1.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz.sha256sum) | 89 B | `other` |
+| [ibus-1.5.35-rc1.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.gz) | 4.4 MiB | `native/unknown` |
+| [ibus-1.5.35-rc1.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.gz.sum) | 380 B | `other` |
+| [ibus-1.5.35-rc1.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.xz) | 1.2 MiB | `other` |
+| [ibus-1.5.35-rc1.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.xz.sha256sum) | 89 B | `other` |
+| [ibus-1.5.35.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.gz) | 4.4 MiB | `native/unknown` |
+| [ibus-1.5.35.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.gz.sum) | 364 B | `other` |
+| [ibus-1.5.35.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.xz) | 1.2 MiB | `other` |
+| [ibus-1.5.35.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.xz.sha256sum) | 85 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ibus) 上共有 **295** 个发行版报告此项目。**58** 个 ✅ 已是最新上游版本，**201** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ibus) 上共有 **296** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**269** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.5.35~rc1` | devel |
-| Debian 14 | `1.5.35~rc1` | devel |
+| Debian unstable | `1.5.35~rc1` | ⚠️ outdated |
+| Debian 14 | `1.5.35~rc1` | ⚠️ outdated |
 | Debian 13 | `1.5.32` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.5.34~rc2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.5.29` | ⚠️ outdated |
-| Arch | `1.5.34` | ✅ latest |
-| Fedora rawhide | `1.5.35~rc1` | devel |
-| Nix unstable | `1.5.34` | ✅ latest |
+| Arch | `1.5.34` | ⚠️ outdated |
+| Fedora rawhide | `1.5.35~rc1` | ⚠️ outdated |
+| Nix unstable | `1.5.34` | ⚠️ outdated |
 | Void | `1.5.32` | ⚠️ outdated |
 | Alpine edge | `1.5.35_beta2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.5.35~rc1` | devel |
+| openSUSE Tumbleweed | `1.5.35~rc1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -101,4 +105,4 @@ ibus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T06:46:46Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T07:17:40Z._

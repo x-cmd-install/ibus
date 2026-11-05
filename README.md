@@ -42,9 +42,9 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.5.35-rc1` (2026-09-22)
+- **Latest**: `1.5.35` (2026-09-22)
 - **Last commit**: 2026-09-22
-- **Assets in release**: 4
+- **Assets in release**: 8
 
 ## Popularity
 
@@ -58,39 +58,43 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 6 | 0 | 7 | 0 |
-| last60d | 2026-09-05 | 1 | 4 | 10 | 6 | 12 | 15 |
-| 90d | 2026-08-06 | 3 | 8 | 11 | 10 | 15 | 37 |
-| last180d | 2026-05-08 | 3 | 14 | 11 | 17 | 20 | 103 |
-| 360d | 2025-11-09 | 5 | 39 | 15 | 51 | 25 | 179 |
-| last720d | 2024-11-14 | 9 | 42 | 17 | 124 | 32 | 321 |
+| 30d | 2026-10-06 | 0 | 0 | 5 | 0 | 7 | 0 |
+| last60d | 2026-09-06 | 1 | 4 | 10 | 4 | 12 | 15 |
+| 90d | 2026-08-07 | 3 | 8 | 11 | 10 | 15 | 37 |
+| last180d | 2026-05-09 | 3 | 14 | 11 | 17 | 20 | 103 |
+| 360d | 2025-11-10 | 5 | 39 | 14 | 51 | 25 | 179 |
+| last720d | 2024-11-15 | 9 | 42 | 17 | 123 | 32 | 321 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [ibus-1.5.35-rc1.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.gz) | 4.4 MiB | `native/unknown` |
-| [ibus-1.5.35-rc1.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.gz.sum) | 380 B | `other` |
-| [ibus-1.5.35-rc1.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz) | 1.2 MiB | `other` |
-| [ibus-1.5.35-rc1.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35-rc1/ibus-1.5.35-rc1.tar.xz.sha256sum) | 89 B | `other` |
+| [ibus-1.5.35-rc1.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.gz) | 4.4 MiB | `native/unknown` |
+| [ibus-1.5.35-rc1.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.gz.sum) | 380 B | `other` |
+| [ibus-1.5.35-rc1.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.xz) | 1.2 MiB | `other` |
+| [ibus-1.5.35-rc1.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35-rc1.tar.xz.sha256sum) | 89 B | `other` |
+| [ibus-1.5.35.tar.gz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.gz) | 4.4 MiB | `native/unknown` |
+| [ibus-1.5.35.tar.gz.sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.gz.sum) | 364 B | `other` |
+| [ibus-1.5.35.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.xz) | 1.2 MiB | `other` |
+| [ibus-1.5.35.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.xz.sha256sum) | 85 B | `other` |
 
 ## Distribution status
 
-Reported by **295** distros on [repology.org](https://repology.org/project/ibus). **58** are ✅ on the latest upstream release, **201** are ⚠️ on an older version.
+Reported by **296** distros on [repology.org](https://repology.org/project/ibus). **6** are ✅ on the latest upstream release, **269** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.5.35~rc1` | devel |
-| Debian 14 | `1.5.35~rc1` | devel |
+| Debian unstable | `1.5.35~rc1` | ⚠️ outdated |
+| Debian 14 | `1.5.35~rc1` | ⚠️ outdated |
 | Debian 13 | `1.5.32` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.5.34~rc2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.5.29` | ⚠️ outdated |
-| Arch | `1.5.34` | ✅ latest |
-| Fedora rawhide | `1.5.35~rc1` | devel |
-| Nix unstable | `1.5.34` | ✅ latest |
+| Arch | `1.5.34` | ⚠️ outdated |
+| Fedora rawhide | `1.5.35~rc1` | ⚠️ outdated |
+| Nix unstable | `1.5.34` | ⚠️ outdated |
 | Void | `1.5.32` | ⚠️ outdated |
 | Alpine edge | `1.5.35_beta2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.5.35~rc1` | devel |
+| openSUSE Tumbleweed | `1.5.35~rc1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -101,4 +105,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:46:46Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:17:39Z._
