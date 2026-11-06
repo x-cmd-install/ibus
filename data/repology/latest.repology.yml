@@ -1,21 +1,3 @@
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: ibus
-  visiblename: ibus
-  version: 1.5.25
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: ibus
-  visiblename: ibus
-  version: 1.5.25
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: gnuguix
   srcname: ibus
   binname: ibus
@@ -24,15 +6,47 @@
   origversion: null
   status: outdated
   summary: Input method framework
-- repo: wikidata
-  srcname: Q1157035
-  visiblename: IBus
+- repo: gnuguix
+  srcname: ibus
+  binname: ibus
+  visiblename: ibus
   version: 1.5.34
   origversion: null
   status: outdated
-  summary: framework for multilingual input
+  summary: Input method framework
+- repo: parabola
+  subrepo: extra
+  srcname: ibus
+  binname: libibus
+  visiblename: libibus
+  version: 1.5.34
+  origversion: 1.5.34-2
+  status: outdated
+  summary: IBus support library
   licenses:
-    - GNU Lesser General Public License, version 2.1
+    - LGPL-2.1-or-later
+- repo: parabola
+  subrepo: extra
+  srcname: ibus
+  binname: ibus
+  visiblename: ibus
+  version: 1.5.34
+  origversion: 1.5.34-2
+  status: outdated
+  summary: Intelligent input bus for Linux/Unix
+  licenses:
+    - LGPL-2.1-or-later
+- repo: chimera
+  subrepo: main
+  srcname: ibus
+  binname: ibus-devel-doc
+  visiblename: ibus-devel-doc
+  version: 1.5.34
+  origversion: 1.5.34-r2
+  status: outdated
+  summary: Intelligent Input Bus (development files) (documentation)
+  licenses:
+    - LGPL-2.1-or-later
 - repo: aerynos
   srcname: ibus
   visiblename: ibus
@@ -161,18 +175,6 @@
     - sir@cmpwn.com
   licenses:
     - LGPL-2.1-or-later
-- repo: aur
-  srcname: ibus-git
-  binname: libibus-git
-  visiblename: libibus-git
-  version: 1.5.34.beta1.r39.g29bc7de
-  origversion: 1.5.34.beta1.r39.g29bc7de-1
-  status: rolling
-  summary: IBus support library
-  maintainers:
-    - staticnoise@aur
-  licenses:
-    - LGPL-2.1-or-later
 - repo: alpine_3_18
   subrepo: community
   srcname: ibus
@@ -405,6 +407,17 @@
   summary: Next Generation Input Bus for Linux (emojis)
   maintainers:
     - wpsinatra@gmail.com
+  licenses:
+    - LGPL-2.1-or-later
+- repo: chimera
+  subrepo: main
+  srcname: ibus
+  binname: ibus-gtk3
+  visiblename: ibus-gtk3
+  version: 1.5.34
+  origversion: 1.5.34-r2
+  status: outdated
+  summary: Intelligent Input Bus (Gtk+3 immodule)
   licenses:
     - LGPL-2.1-or-later
 - repo: alpine_3_20
@@ -446,17 +459,6 @@
     - wpsinatra@gmail.com
   licenses:
     - LGPL-2.1-or-later
-- repo: artix
-  subrepo: world
-  srcname: ibus
-  binname: libibus
-  visiblename: libibus
-  version: 1.5.34
-  origversion: 1.5.34-2
-  status: outdated
-  summary: IBus support library
-  licenses:
-    - LGPL-2.1-or-later
 - repo: alpine_3_20
   subrepo: community
   srcname: ibus
@@ -548,6 +550,17 @@
     - miyopan@e.email
   licenses:
     - LGPL-2.1-or-later
+- repo: chimera
+  subrepo: main
+  srcname: ibus
+  binname: ibus-gtk4
+  visiblename: ibus-gtk4
+  version: 1.5.34
+  origversion: 1.5.34-r2
+  status: outdated
+  summary: Intelligent Input Bus (Gtk4 immodule)
+  licenses:
+    - LGPL-2.1-or-later
 - repo: alpine_3_21
   subrepo: community
   srcname: ibus
@@ -587,17 +600,6 @@
     - miyopan@e.email
   licenses:
     - LGPL-2.1-or-later
-- repo: artix
-  subrepo: world
-  srcname: ibus
-  binname: ibus
-  visiblename: ibus
-  version: 1.5.34
-  origversion: 1.5.34-2
-  status: outdated
-  summary: Intelligent input bus for Linux/Unix
-  licenses:
-    - LGPL-2.1-or-later
 - repo: alpine_3_21
   subrepo: community
   srcname: ibus
@@ -687,6 +689,17 @@
   summary: Next Generation Input Bus for Linux (emojis)
   maintainers:
     - miyopan@e.email
+  licenses:
+    - LGPL-2.1-or-later
+- repo: chimera
+  subrepo: main
+  srcname: ibus
+  binname: ibus-libs
+  visiblename: ibus-libs
+  version: 1.5.34
+  origversion: 1.5.34-r2
+  status: outdated
+  summary: Intelligent Input Bus (libraries)
   licenses:
     - LGPL-2.1-or-later
 - repo: alpine_3_22
@@ -819,6 +832,17 @@
     - miyopan@e.email
   licenses:
     - LGPL-2.1-or-later
+- repo: chimera
+  subrepo: main
+  srcname: ibus
+  binname: ibus-locale
+  visiblename: ibus-locale
+  version: 1.5.34
+  origversion: 1.5.34-r2
+  status: outdated
+  summary: Intelligent Input Bus (locale data)
+  licenses:
+    - LGPL-2.1-or-later
 - repo: alpine_3_23
   subrepo: community
   srcname: ibus
@@ -889,9 +913,9 @@
   srcname: ibus
   binname: ibus
   visiblename: ibus
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux
   maintainers:
     - miyopan@e.email
@@ -902,9 +926,9 @@
   srcname: ibus
   binname: ibus-bash-completion
   visiblename: ibus-bash-completion
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Bash completions for ibus
   maintainers:
     - miyopan@e.email
@@ -915,9 +939,9 @@
   srcname: ibus
   binname: ibus-dev
   visiblename: ibus-dev
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux (development files)
   maintainers:
     - miyopan@e.email
@@ -928,9 +952,9 @@
   srcname: ibus
   binname: ibus-doc
   visiblename: ibus-doc
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux (documentation)
   maintainers:
     - miyopan@e.email
@@ -941,12 +965,23 @@
   srcname: ibus
   binname: ibus-emoji
   visiblename: ibus-emoji
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux (emojis)
   maintainers:
     - miyopan@e.email
+  licenses:
+    - LGPL-2.1-or-later
+- repo: chimera
+  subrepo: main
+  srcname: ibus
+  binname: ibus-man
+  visiblename: ibus-man
+  version: 1.5.34
+  origversion: 1.5.34-r2
+  status: outdated
+  summary: Intelligent Input Bus (manual pages)
   licenses:
     - LGPL-2.1-or-later
 - repo: alpine_3_24
@@ -954,9 +989,9 @@
   srcname: ibus
   binname: ibus-gtk3
   visiblename: ibus-gtk3
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux
   maintainers:
     - miyopan@e.email
@@ -967,9 +1002,9 @@
   srcname: ibus
   binname: ibus-gtk4
   visiblename: ibus-gtk4
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux
   maintainers:
     - miyopan@e.email
@@ -980,9 +1015,9 @@
   srcname: ibus
   binname: ibus-lang
   visiblename: ibus-lang
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Languages for package ibus
   maintainers:
     - miyopan@e.email
@@ -993,9 +1028,9 @@
   srcname: ibus
   binname: ibus-pyc
   visiblename: ibus-pyc
-  version: 1.5.34
-  origversion: 1.5.34-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Precompiled Python bytecode for ibus
   maintainers:
     - miyopan@e.email
@@ -1006,9 +1041,9 @@
   srcname: ibus
   binname: ibus
   visiblename: ibus
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux
   maintainers:
     - miyopan@e.email
@@ -1019,9 +1054,9 @@
   srcname: ibus
   binname: ibus-bash-completion
   visiblename: ibus-bash-completion
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Bash completions for ibus
   maintainers:
     - miyopan@e.email
@@ -1032,9 +1067,9 @@
   srcname: ibus
   binname: ibus-dev
   visiblename: ibus-dev
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux (development files)
   maintainers:
     - miyopan@e.email
@@ -1045,9 +1080,9 @@
   srcname: ibus
   binname: ibus-doc
   visiblename: ibus-doc
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux (documentation)
   maintainers:
     - miyopan@e.email
@@ -1058,9 +1093,9 @@
   srcname: ibus
   binname: ibus-emoji
   visiblename: ibus-emoji
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux (emojis)
   maintainers:
     - miyopan@e.email
@@ -1071,9 +1106,9 @@
   srcname: ibus
   binname: ibus-gtk3
   visiblename: ibus-gtk3
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux
   maintainers:
     - miyopan@e.email
@@ -1084,9 +1119,9 @@
   srcname: ibus
   binname: ibus-gtk4
   visiblename: ibus-gtk4
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Next Generation Input Bus for Linux
   maintainers:
     - miyopan@e.email
@@ -1097,9 +1132,9 @@
   srcname: ibus
   binname: ibus-lang
   visiblename: ibus-lang
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Languages for package ibus
   maintainers:
     - miyopan@e.email
@@ -1110,9 +1145,9 @@
   srcname: ibus
   binname: ibus-pyc
   visiblename: ibus-pyc
-  version: 1.5.35_beta2
-  origversion: 1.5.35_beta2-r0
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-r0
+  status: newest
   summary: Precompiled Python bytecode for ibus
   maintainers:
     - miyopan@e.email
@@ -1168,9 +1203,9 @@
     - libibus-gir-devel
     - python3-module-ibus-overrides
   visiblename: ibus
-  version: 1.5.35-rc1
-  origversion: 1.5.35-alt0.5.rc1
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-alt1
+  status: newest
   summary: Intelligent Input Bus for Linux OS
   maintainers:
     - aris@altlinux.org
@@ -1251,6 +1286,17 @@
     - aron@debian.org
     - cwryu@debian.org
     - osamu@debian.org
+- repo: nix_stable_26_05
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.33
+  origversion: null
+  status: outdated
+  summary: Intelligent Input Bus, input method framework
+  maintainers:
+    - ttuegel@mailbox.org
+  licenses:
+    - LGPL-2.1-or-later
 - repo: apertis_v2025
   subrepo: v2025/development
   srcname: ibus
@@ -1360,6 +1406,40 @@
     - staticnoise@aur
   licenses:
     - LGPL-2.1-or-later
+- repo: aur
+  srcname: ibus-git
+  binname: libibus-git
+  visiblename: libibus-git
+  version: 1.5.34.beta1.r39.g29bc7de
+  origversion: 1.5.34.beta1.r39.g29bc7de-1
+  status: rolling
+  summary: IBus support library
+  maintainers:
+    - staticnoise@aur
+  licenses:
+    - LGPL-2.1-or-later
+- repo: artix
+  subrepo: world
+  srcname: ibus
+  binname: libibus
+  visiblename: libibus
+  version: 1.5.34
+  origversion: 1.5.34-2
+  status: outdated
+  summary: IBus support library
+  licenses:
+    - LGPL-2.1-or-later
+- repo: artix
+  subrepo: world
+  srcname: ibus
+  binname: ibus
+  visiblename: ibus
+  version: 1.5.34
+  origversion: 1.5.34-2
+  status: outdated
+  summary: Intelligent input bus for Linux/Unix
+  licenses:
+    - LGPL-2.1-or-later
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: ibus
@@ -1444,6 +1524,19 @@
     - LGPLv2+
   categories:
     - Unspecified
+- repo: gentoo
+  srcname: app-i18n/ibus
+  visiblename: app-i18n/ibus
+  version: 1.5.34
+  origversion: 1.5.34-r2
+  status: outdated
+  summary: Intelligent Input Bus for Linux / Unix OS
+  maintainers:
+    - cjk@gentoo.org
+  licenses:
+    - LGPL-2.1
+  categories:
+    - app-i18n
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: ibus
@@ -1624,72 +1717,6 @@
 - repo: chimera
   subrepo: main
   srcname: ibus
-  binname: ibus-devel-doc
-  visiblename: ibus-devel-doc
-  version: 1.5.34
-  origversion: 1.5.34-r2
-  status: outdated
-  summary: Intelligent Input Bus (development files) (documentation)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: chimera
-  subrepo: main
-  srcname: ibus
-  binname: ibus-gtk3
-  visiblename: ibus-gtk3
-  version: 1.5.34
-  origversion: 1.5.34-r2
-  status: outdated
-  summary: Intelligent Input Bus (Gtk+3 immodule)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: chimera
-  subrepo: main
-  srcname: ibus
-  binname: ibus-gtk4
-  visiblename: ibus-gtk4
-  version: 1.5.34
-  origversion: 1.5.34-r2
-  status: outdated
-  summary: Intelligent Input Bus (Gtk4 immodule)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: chimera
-  subrepo: main
-  srcname: ibus
-  binname: ibus-libs
-  visiblename: ibus-libs
-  version: 1.5.34
-  origversion: 1.5.34-r2
-  status: outdated
-  summary: Intelligent Input Bus (libraries)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: chimera
-  subrepo: main
-  srcname: ibus
-  binname: ibus-locale
-  visiblename: ibus-locale
-  version: 1.5.34
-  origversion: 1.5.34-r2
-  status: outdated
-  summary: Intelligent Input Bus (locale data)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: chimera
-  subrepo: main
-  srcname: ibus
-  binname: ibus-man
-  visiblename: ibus-man
-  version: 1.5.34
-  origversion: 1.5.34-r2
-  status: outdated
-  summary: Intelligent Input Bus (manual pages)
-  licenses:
-    - LGPL-2.1-or-later
-- repo: chimera
-  subrepo: main
-  srcname: ibus
   binname: ibus-pycache
   visiblename: ibus-pycache
   version: 1.5.34
@@ -1743,9 +1770,9 @@
   subrepo: contrib
   srcname: ibus
   visiblename: ibus
-  version: 1.5.34
+  version: 1.5.35
   origversion: null
-  status: outdated
+  status: newest
   summary: Next Generation Input Bus for Linux
   maintainers:
     - tbier@posteo.de
@@ -2019,14 +2046,6 @@
     - osamu@debian.org
   categories:
     - utils
-- repo: gnuguix
-  srcname: ibus
-  binname: ibus
-  visiblename: ibus
-  version: 1.5.34
-  origversion: null
-  status: outdated
-  summary: Input method framework
 - repo: eurolinux_9
   subrepo: appstream
   srcname: ibus
@@ -2053,18 +2072,6 @@
     - LGPLv2+
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: textproc/ibus
-  binname: ibus
-  visiblename: textproc/ibus
-  version: 1.5.34
-  origversion: 1.5.34_1
-  status: outdated
-  summary: Intelligent Input Bus for Unix-like systems
-  maintainers:
-    - henry.hu.sh@gmail.com
-  categories:
-    - textproc
 - repo: eurolinux_9
   subrepo: appstream
   srcname: ibus
@@ -2158,33 +2165,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: ibus
-  binnames:
-    - ibus
-    - ibus-libs
-    - ibus-gtk2
-    - ibus-gtk3
-    - ibus-gtk4
-    - ibus-setup
-    - ibus-wayland
-    - ibus-panel
-    - ibus-devel
-    - ibus-devel-docs
-    - ibus-desktop-testing
-    - ibus-tests
-    - ibus-debuginfo
-    - ibus-debugsource
-  visiblename: ibus
-  version: 1.5.30
-  origversion: 1.5.30-7.fc40
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: ibus
   binnames:
@@ -2206,6 +2186,33 @@
   version: 1.5.30~rc1
   origversion: 1.5.30~rc1-1.fc40
   status: legacy
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: ibus
+  binnames:
+    - ibus
+    - ibus-libs
+    - ibus-gtk2
+    - ibus-gtk3
+    - ibus-gtk4
+    - ibus-setup
+    - ibus-wayland
+    - ibus-panel
+    - ibus-devel
+    - ibus-devel-docs
+    - ibus-desktop-testing
+    - ibus-tests
+    - ibus-debuginfo
+    - ibus-debugsource
+  visiblename: ibus
+  version: 1.5.30
+  origversion: 1.5.30-7.fc40
+  status: outdated
   summary: Intelligent Input Bus for Linux OS
   licenses:
     - LGPL-2.1-or-later
@@ -2264,32 +2271,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: ibus
-  binnames:
-    - ibus
-    - ibus-libs
-    - ibus-gtk2
-    - ibus-gtk3
-    - ibus-gtk4
-    - ibus-setup
-    - ibus-wayland
-    - ibus-panel
-    - ibus-xinit
-    - ibus-devel
-    - ibus-devel-docs
-    - ibus-desktop-testing
-    - ibus-tests
-  visiblename: ibus
-  version: 1.5.32
-  origversion: 1.5.32-3.fc42
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: ibus
   binnames:
@@ -2310,6 +2291,32 @@
   version: 1.5.32~rc2
   origversion: 1.5.32~rc2-1.fc42
   status: legacy
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: ibus
+  binnames:
+    - ibus
+    - ibus-libs
+    - ibus-gtk2
+    - ibus-gtk3
+    - ibus-gtk4
+    - ibus-setup
+    - ibus-wayland
+    - ibus-panel
+    - ibus-xinit
+    - ibus-devel
+    - ibus-devel-docs
+    - ibus-desktop-testing
+    - ibus-tests
+  visiblename: ibus
+  version: 1.5.32
+  origversion: 1.5.32-3.fc42
+  status: outdated
   summary: Intelligent Input Bus for Linux OS
   licenses:
     - LGPL-2.1-or-later
@@ -2368,33 +2375,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: ibus
-  binnames:
-    - ibus
-    - python3-ibus
-    - ibus-libs
-    - ibus-gtk2
-    - ibus-gtk3
-    - ibus-gtk4
-    - ibus-setup
-    - ibus-wayland
-    - ibus-panel
-    - ibus-xinit
-    - ibus-devel
-    - ibus-devel-docs
-    - ibus-desktop-testing
-    - ibus-tests
-  visiblename: ibus
-  version: 1.5.34~rc1
-  origversion: 1.5.34~rc1-4.fc44
-  status: legacy
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: ibus
   binnames:
@@ -2421,6 +2401,33 @@
     - LGPL-2.1-or-later
   categories:
     - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: ibus
+  binnames:
+    - ibus
+    - python3-ibus
+    - ibus-libs
+    - ibus-gtk2
+    - ibus-gtk3
+    - ibus-gtk4
+    - ibus-setup
+    - ibus-wayland
+    - ibus-panel
+    - ibus-xinit
+    - ibus-devel
+    - ibus-devel-docs
+    - ibus-desktop-testing
+    - ibus-tests
+  visiblename: ibus
+  version: 1.5.34~rc1
+  origversion: 1.5.34~rc1-4.fc44
+  status: legacy
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: ibus
@@ -2440,14 +2447,26 @@
     - ibus-desktop-testing
     - ibus-tests
   visiblename: ibus
-  version: 1.5.35~rc1
-  origversion: 1.5.35~rc1-1.fc46
-  status: outdated
+  version: 1.5.35
+  origversion: 1.5.35-1.fc46
+  status: newest
   summary: Intelligent Input Bus for Linux OS
   licenses:
     - LGPL-2.1-or-later
   categories:
     - Unspecified
+- repo: freebsd
+  srcname: textproc/ibus
+  binname: ibus
+  visiblename: textproc/ibus
+  version: 1.5.34
+  origversion: 1.5.34_1
+  status: outdated
+  summary: Intelligent Input Bus for Unix-like systems
+  maintainers:
+    - henry.hu.sh@gmail.com
+  categories:
+    - textproc
 - repo: gentoo
   srcname: app-i18n/ibus
   visiblename: app-i18n/ibus
@@ -2479,19 +2498,6 @@
   visiblename: app-i18n/ibus
   version: 1.5.34
   origversion: null
-  status: outdated
-  summary: Intelligent Input Bus for Linux / Unix OS
-  maintainers:
-    - cjk@gentoo.org
-  licenses:
-    - LGPL-2.1
-  categories:
-    - app-i18n
-- repo: gentoo
-  srcname: app-i18n/ibus
-  visiblename: app-i18n/ibus
-  version: 1.5.34
-  origversion: 1.5.34-r2
   status: outdated
   summary: Intelligent Input Bus for Linux / Unix OS
   maintainers:
@@ -2676,7 +2682,7 @@
     - GPLv2+
   categories:
     - System/Internationalization
-- repo: raspbian_oldstable
+- repo: pardus_21
   subrepo: main
   srcname: ibus
   binnames:
@@ -2687,14 +2693,13 @@
     - libibus-1.0-dev
     - ibus-gtk
     - ibus-gtk3
-    - ibus-gtk4
     - ibus-wayland
     - ibus-doc
     - gir1.2-ibus-1.0
     - python3-ibus-1.0
   visiblename: ibus
-  version: 1.5.27
-  origversion: 1.5.27-5
+  version: 1.5.23
+  origversion: 1.5.23-2
   status: outdated
   maintainers:
     - debian-input-method@lists.debian.org
@@ -2848,17 +2853,6 @@
   licenses:
     - LGPL-2.1-or-later
 - repo: nix_stable_26_05
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.33
-  origversion: null
-  status: outdated
-  summary: Intelligent Input Bus, input method framework
-  maintainers:
-    - ttuegel@mailbox.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: nix_stable_26_05
   srcname: ibusMinimal
   visiblename: ibus
   version: 1.5.33
@@ -2895,9 +2889,9 @@
   srcname: inputmethods/ibus
   binname: ibus
   visiblename: inputmethods/ibus
-  version: 1.5.34
-  origversion: 1.5.34p1
-  status: outdated
+  version: 1.5.35
+  origversion: null
+  status: newest
   summary: intelligent input bus framework
   maintainers:
     - ajacoutot@openbsd.org
@@ -2907,22 +2901,10 @@
   srcname: inputmethods/ibus
   binname: ibus
   visiblename: inputmethods/ibus
-  version: 1.5.34
-  origversion: 1.5.34p1
-  status: outdated
+  version: 1.5.35
+  origversion: null
+  status: newest
   summary: intelligent input bus framework
-  maintainers:
-    - ajacoutot@openbsd.org
-  categories:
-    - inputmethods
-- repo: openbsd
-  srcname: inputmethods/ibus
-  binname: ibus-gtk2
-  visiblename: inputmethods/ibus
-  version: 1.5.34
-  origversion: 1.5.34p0
-  status: outdated
-  summary: IBus IM module for GTK2
   maintainers:
     - ajacoutot@openbsd.org
   categories:
@@ -2931,10 +2913,22 @@
   srcname: inputmethods/ibus
   binname: ibus-gtk3
   visiblename: inputmethods/ibus
-  version: 1.5.34
-  origversion: 1.5.34p1
-  status: outdated
+  version: 1.5.35
+  origversion: null
+  status: newest
   summary: IBus IM module for GTK3
+  maintainers:
+    - ajacoutot@openbsd.org
+  categories:
+    - inputmethods
+- repo: openbsd
+  srcname: inputmethods/ibus
+  binname: ibus-gtk2
+  visiblename: inputmethods/ibus
+  version: 1.5.35
+  origversion: null
+  status: newest
+  summary: IBus IM module for GTK2
   maintainers:
     - ajacoutot@openbsd.org
   categories:
@@ -2943,9 +2937,9 @@
   srcname: inputmethods/ibus
   binname: ibus-gtk4
   visiblename: inputmethods/ibus
-  version: 1.5.34
-  origversion: 1.5.34p0
-  status: outdated
+  version: 1.5.35
+  origversion: null
+  status: newest
   summary: IBus IM module for GTK4
   maintainers:
     - ajacoutot@openbsd.org
@@ -3259,31 +3253,6 @@
     - libibus-devel
     - ibus-apidocs
   visiblename: ibus
-  version: 1.5.34
-  origversion: 1.5.34-1mamba
-  status: legacy
-  summary: Intelligent Input Bus for Linux / Unix OS
-  maintainers:
-    - silvan@openmamba.org
-  licenses:
-    - LGPL
-  categories:
-    - System/Servers
-- repo: openmamba
-  subrepo: devel-makedist
-  srcname: ibus
-  binnames:
-    - ibus
-    - libibus
-    - ibus-desktop
-    - ibus-gtk2
-    - ibus-gtk3
-    - ibus-gtk4
-    - ibus-wayland
-    - python-ibus-py3
-    - libibus-devel
-    - ibus-apidocs
-  visiblename: ibus
   version: 1.5.35
   origversion: 1.5.35-1mamba
   status: newest
@@ -3353,6 +3322,18 @@
   categories:
     - System/Internationalization
 - repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.25
+  origversion: 1.5.25-150400.3.3.1
+  status: outdated
+  summary: The "Intelligent Input Bus" input method
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - System/I18n/Chinese
+- repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: ibus
   visiblename: ibus
@@ -3364,12 +3345,12 @@
     - LGPL-2.1-or-later
   categories:
     - System/I18n/Chinese
-- repo: opensuse_leap_15_5
+- repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: ibus
   visiblename: ibus
-  version: 1.5.25
-  origversion: 1.5.25-150400.3.3.1
+  version: 1.5.28
+  origversion: 1.5.28-150600.3.3.1
   status: outdated
   summary: The "Intelligent Input Bus" input method
   licenses:
@@ -3382,45 +3363,6 @@
   visiblename: ibus
   version: 1.5.28
   origversion: 1.5.28-150600.1.7
-  status: outdated
-  summary: The "Intelligent Input Bus" input method
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - System/I18n/Chinese
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ibus
-  binnames:
-    - ibus
-    - ibus-data
-    - ibus-tests
-    - libibus-1.0-5
-    - libibus-1.0-dev
-    - ibus-gtk
-    - ibus-gtk3
-    - ibus-gtk4
-    - ibus-wayland
-    - ibus-doc
-    - gir1.2-ibus-1.0
-    - python3-ibus-1.0
-  visiblename: ibus
-  version: 1.5.32
-  origversion: 1.5.32-2
-  status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - aron@debian.org
-    - cwryu@debian.org
-    - osamu@debian.org
-  categories:
-    - utils
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.28
-  origversion: 1.5.28-150600.3.3.1
   status: outdated
   summary: The "Intelligent Input Bus" input method
   licenses:
@@ -3450,56 +3392,8 @@
     - LGPL-2.1-or-later
   categories:
     - System/I18n/Chinese
-- repo: parabola
-  subrepo: extra
-  srcname: ibus
-  binname: libibus
-  visiblename: libibus
-  version: 1.5.34
-  origversion: 1.5.34-2
-  status: outdated
-  summary: IBus support library
-  licenses:
-    - LGPL-2.1-or-later
-- repo: parabola
-  subrepo: extra
-  srcname: ibus
-  binname: ibus
-  visiblename: ibus
-  version: 1.5.34
-  origversion: 1.5.34-2
-  status: outdated
-  summary: Intelligent input bus for Linux/Unix
-  licenses:
-    - LGPL-2.1-or-later
-- repo: pardus_21
-  subrepo: main
-  srcname: ibus
-  binnames:
-    - ibus
-    - ibus-data
-    - ibus-tests
-    - libibus-1.0-5
-    - libibus-1.0-dev
-    - ibus-gtk
-    - ibus-gtk3
-    - ibus-wayland
-    - ibus-doc
-    - gir1.2-ibus-1.0
-    - python3-ibus-1.0
-  visiblename: ibus
-  version: 1.5.23
-  origversion: 1.5.23-2
-  status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - aron@debian.org
-    - cwryu@debian.org
-    - osamu@debian.org
-  categories:
-    - utils
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: ibus
   binnames:
     - ibus
@@ -3526,7 +3420,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: ibus
   binnames:
     - ibus
@@ -3661,6 +3555,60 @@
     - osamu@debian.org
   categories:
     - introspection
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: ibus
+  binnames:
+    - ibus
+    - ibus-data
+    - ibus-tests
+    - libibus-1.0-5
+    - libibus-1.0-dev
+    - ibus-gtk
+    - ibus-gtk3
+    - ibus-gtk4
+    - ibus-wayland
+    - ibus-doc
+    - gir1.2-ibus-1.0
+    - python3-ibus-1.0
+  visiblename: ibus
+  version: 1.5.27
+  origversion: 1.5.27-5
+  status: outdated
+  maintainers:
+    - debian-input-method@lists.debian.org
+    - aron@debian.org
+    - cwryu@debian.org
+    - osamu@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ibus
+  binnames:
+    - ibus
+    - ibus-data
+    - ibus-tests
+    - libibus-1.0-5
+    - libibus-1.0-dev
+    - ibus-gtk
+    - ibus-gtk3
+    - ibus-gtk4
+    - ibus-wayland
+    - ibus-doc
+    - gir1.2-ibus-1.0
+    - python3-ibus-1.0
+  visiblename: ibus
+  version: 1.5.32
+  origversion: 1.5.32-2
+  status: outdated
+  maintainers:
+    - debian-input-method@lists.debian.org
+    - aron@debian.org
+    - cwryu@debian.org
+    - osamu@debian.org
+  categories:
+    - utils
 - repo: raspbian_testing
   subrepo: main
   srcname: ibus
@@ -3783,9 +3731,9 @@
   subrepo: slackware
   binname: ibus
   visiblename: ibus
-  version: 1.5.35_rc1
+  version: 1.5.35
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - volkerdi@slackware.com
 - repo: slackware64_15_0
@@ -3810,7 +3758,25 @@
   subrepo: slackware64
   binname: ibus
   visiblename: ibus
-  version: 1.5.35_rc1
+  version: 1.5.35
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: ibus
+  visiblename: ibus
+  version: 1.5.25
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: ibus
+  visiblename: ibus
+  version: 1.5.25
   origversion: null
   status: outdated
   maintainers:
@@ -3884,6 +3850,33 @@
     - LGPL
   categories:
     - extra/tool
+- repo: ubuntu_24_04
+  subrepo: noble/main
+  srcname: ibus
+  binnames:
+    - ibus
+    - ibus-data
+    - ibus-tests
+    - libibus-1.0-5
+    - libibus-1.0-dev
+    - ibus-gtk
+    - ibus-gtk3
+    - ibus-gtk4
+    - ibus-wayland
+    - ibus-doc
+    - gir1.2-ibus-1.0
+    - python3-ibus-1.0
+  visiblename: ibus
+  version: 1.5.29
+  origversion: 1.5.29-2
+  status: outdated
+  maintainers:
+    - debian-input-method@lists.debian.org
+    - aron@debian.org
+    - cwryu@debian.org
+    - osamu@debian.org
+  categories:
+    - utils
 - repo: termux
   srcname: ibus
   binname: ibus
@@ -3965,33 +3958,6 @@
   visiblename: ibus
   version: 1.5.26
   origversion: 1.5.26-4
-  status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - aron@debian.org
-    - cwryu@debian.org
-    - osamu@debian.org
-  categories:
-    - utils
-- repo: ubuntu_24_04
-  subrepo: noble/main
-  srcname: ibus
-  binnames:
-    - ibus
-    - ibus-data
-    - ibus-tests
-    - libibus-1.0-5
-    - libibus-1.0-dev
-    - ibus-gtk
-    - ibus-gtk3
-    - ibus-gtk4
-    - ibus-wayland
-    - ibus-doc
-    - gir1.2-ibus-1.0
-    - python3-ibus-1.0
-  visiblename: ibus
-  version: 1.5.29
-  origversion: 1.5.29-2
   status: outdated
   maintainers:
     - debian-input-method@lists.debian.org
@@ -4196,6 +4162,130 @@
   summary: Intelligent Input Bus
   maintainers:
     - wonkru-dev@proton.me
+- repo: wikidata
+  srcname: Q1157035
+  visiblename: IBus
+  version: 1.5.34
+  origversion: null
+  status: outdated
+  summary: framework for multilingual input
+  licenses:
+    - GNU Lesser General Public License, version 2.1
+- repo: amazon_2
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.17
+  origversion: 1.5.17-11.amzn2
+  status: outdated
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.17
+  origversion: 1.5.17-2.amzn2.0.1
+  status: outdated
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.17
+  origversion: 1.5.17-2.amzn2
+  status: outdated
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.3
+  origversion: 1.5.3-13.amzn2
+  status: legacy
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: cygwin
+  srcname: ibus
+  binname: vala-ibus1.0
+  visiblename: vala-ibus1.0
+  version: 1.5.15
+  origversion: 1.5.15-1
+  status: outdated
+  summary: IBus X Input Module framework
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Libs
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.19
+  origversion: 1.5.19-12.el8
+  status: outdated
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.19
+  origversion: 1.5.19-14.el8_5
+  status: outdated
+  summary: Intelligent Input Bus for Linux OS
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: cygwin
+  srcname: ibus
+  binname: vala-ibus-emoji-dialog1.0
+  visiblename: vala-ibus-emoji-dialog1.0
+  version: 1.5.15
+  origversion: 1.5.15-1
+  status: outdated
+  summary: IBus X Input Module framework
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Libs
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: ibus
+  visiblename: ibus
+  version: 1.5.19
+  origversion: 1.5.19-14.el8
+  status: outdated
+  summary: Intelligent Input Bus for Linux OS
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
   srcname: ibus
@@ -4265,67 +4355,6 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: amazon_2
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.17
-  origversion: 1.5.17-11.amzn2
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: amazon_2
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.17
-  origversion: 1.5.17-2.amzn2.0.1
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: amazon_2
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.17
-  origversion: 1.5.17-2.amzn2
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: amazon_2
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.3
-  origversion: 1.5.3-13.amzn2
-  status: legacy
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: cygwin
-  srcname: ibus
-  binname: vala-ibus-emoji-dialog1.0
-  visiblename: vala-ibus-emoji-dialog1.0
-  version: 1.5.15
-  origversion: 1.5.15-1
-  status: outdated
-  summary: IBus X Input Module framework
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Libs
-  vulnerable: true
 - repo: centos_7
   subrepo: updates
   srcname: ibus
@@ -4390,21 +4419,6 @@
   visiblename: ibus
   version: 1.5.19
   origversion: 1.5.19-13.el8
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: centos_stream_8
-  subrepo: AppStream
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.19
-  origversion: 1.5.19-14.el8
   status: outdated
   summary: Intelligent Input Bus for Linux OS
   maintainers:
@@ -4531,19 +4545,6 @@
   categories:
     - Libs
   vulnerable: true
-- repo: cygwin
-  srcname: ibus
-  binname: vala-ibus1.0
-  visiblename: vala-ibus1.0
-  version: 1.5.15
-  origversion: 1.5.15-1
-  status: outdated
-  summary: IBus X Input Module framework
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Libs
-  vulnerable: true
 - repo: deepin_unstable
   subrepo: main
   srcname: ibus
@@ -4571,32 +4572,6 @@
   visiblename: ibus
   version: 1.5.19
   origversion: 1.5.19-11.el8
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.19
-  origversion: 1.5.19-12.el8
-  status: outdated
-  summary: Intelligent Input Bus for Linux OS
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: ibus
-  visiblename: ibus
-  version: 1.5.19
-  origversion: 1.5.19-14.el8_5
   status: outdated
   summary: Intelligent Input Bus for Linux OS
   licenses:
@@ -4668,31 +4643,6 @@
     - System Environment/Libraries
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: ibus
-  binnames:
-    - ibus
-    - libibus-1.0-5
-    - libibus-1.0-dev
-    - ibus-gtk
-    - ibus-gtk3
-    - python-ibus
-    - ibus-doc
-    - gir1.2-ibus-1.0
-  visiblename: ibus
-  version: 1.5.5
-  origversion: 1.5.5-1ubuntu3
-  status: outdated
-  maintainers:
-    - pkg-ime-devel@lists.alioth.debian.org
-    - aron@debian.org
-    - asias@debian.org
-    - osamu@debian.org
-    - ueno@unixuser.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: ibus
   binnames:
@@ -4717,8 +4667,8 @@
   categories:
     - utils
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/main
+- repo: ubuntu_14_04
+  subrepo: trusty/main
   srcname: ibus
   binnames:
     - ibus
@@ -4726,18 +4676,19 @@
     - libibus-1.0-dev
     - ibus-gtk
     - ibus-gtk3
-    - ibus-wayland
+    - python-ibus
     - ibus-doc
     - gir1.2-ibus-1.0
-    - ibus-dbg
   visiblename: ibus
-  version: 1.5.11
-  origversion: 1.5.11-1ubuntu2.4
+  version: 1.5.5
+  origversion: 1.5.5-1ubuntu3
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - pkg-ime-devel@lists.alioth.debian.org
     - aron@debian.org
+    - asias@debian.org
     - osamu@debian.org
+    - ueno@unixuser.org
   categories:
     - utils
   vulnerable: true
@@ -4760,6 +4711,30 @@
   status: outdated
   maintainers:
     - pkg-ime-devel@lists.alioth.debian.org
+    - aron@debian.org
+    - osamu@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
+  srcname: ibus
+  binnames:
+    - ibus
+    - libibus-1.0-5
+    - libibus-1.0-dev
+    - ibus-gtk
+    - ibus-gtk3
+    - ibus-wayland
+    - ibus-doc
+    - gir1.2-ibus-1.0
+    - ibus-dbg
+  visiblename: ibus
+  version: 1.5.11
+  origversion: 1.5.11-1ubuntu2.4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - aron@debian.org
     - osamu@debian.org
   categories:
