@@ -14,11 +14,11 @@ x install ibus
 
 ## Code insight
 
-Total: **123,866** lines of code across **326** files in the top 5 languages.
+Total: **123,609** lines of code across **326** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 57,159 | 7,104 | 8,042 | 107 |
+| C | 56,902 | 7,106 | 8,024 | 107 |
 | CHeader | 17,723 | 11,854 | 1,721 | 82 |
 | Autoconf | 13,316 | 147 | 181 | 37 |
 | Vala | 11,215 | 1,343 | 1,617 | 27 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.5.35` (2026-09-22)
-- **Last commit**: 2026-11-06
+- **Last commit**: 2026-11-09
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 1,009 · **Forks**: 213 · **Open issues**: 2,648 · **Contributors**: 4
+- **Stars**: 1,009 · **Forks**: 213 · **Open issues**: 2,649 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 66 · **Open PRs**: 20 · **Closed issues**: 2386 · **Open issues**: 262 · **Commits**: 3627
+- **Releases**: 70 · **Merged PRs**: 67 · **Open PRs**: 16 · **Closed issues**: 2387 · **Open issues**: 262 · **Commits**: 3629
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 1 | 5 | 0 | 9 | 4 |
-| last60d | 2026-09-09 | 1 | 6 | 9 | 4 | 14 | 21 |
-| 90d | 2026-08-10 | 3 | 10 | 10 | 10 | 17 | 43 |
-| last180d | 2026-05-12 | 3 | 16 | 10 | 17 | 22 | 109 |
-| 360d | 2025-11-13 | 5 | 41 | 13 | 50 | 26 | 185 |
-| last720d | 2024-11-18 | 9 | 44 | 16 | 123 | 34 | 327 |
+| 30d | 2026-10-10 | 0 | 1 | 4 | 1 | 8 | 5 |
+| last60d | 2026-09-10 | 1 | 7 | 6 | 5 | 13 | 15 |
+| 90d | 2026-08-11 | 3 | 11 | 8 | 11 | 16 | 38 |
+| last180d | 2026-05-13 | 3 | 17 | 8 | 18 | 22 | 111 |
+| 360d | 2025-11-14 | 5 | 42 | 10 | 51 | 26 | 186 |
+| last720d | 2024-11-19 | 9 | 45 | 13 | 124 | 34 | 329 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **297** distros on [repology.org](https://repology.org/project/ibus). **36** are ✅ on the latest upstream release, **241** are ⚠️ on an older version.
+Reported by **297** distros on [repology.org](https://repology.org/project/ibus). **37** are ✅ on the latest upstream release, **240** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:23:54Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T06:56:27Z._
