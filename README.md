@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,009 · **Forks**: 213 · **Open issues**: 2,649 · **Contributors**: 4
+- **Stars**: 1,009 · **Forks**: 213 · **Open issues**: 2,650 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 67 · **Open PRs**: 16 · **Closed issues**: 2387 · **Open issues**: 262 · **Commits**: 3629
+- **Releases**: 70 · **Merged PRs**: 67 · **Open PRs**: 17 · **Closed issues**: 2387 · **Open issues**: 263 · **Commits**: 3629
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 1 | 4 | 1 | 8 | 5 |
-| last60d | 2026-09-10 | 1 | 7 | 6 | 5 | 13 | 15 |
-| 90d | 2026-08-11 | 3 | 11 | 8 | 11 | 16 | 38 |
-| last180d | 2026-05-13 | 3 | 17 | 8 | 18 | 22 | 111 |
-| 360d | 2025-11-14 | 5 | 42 | 10 | 51 | 26 | 186 |
-| last720d | 2024-11-19 | 9 | 45 | 13 | 124 | 34 | 329 |
+| 30d | 2026-10-11 | 0 | 1 | 5 | 1 | 9 | 5 |
+| last60d | 2026-09-11 | 1 | 6 | 7 | 5 | 14 | 15 |
+| 90d | 2026-08-12 | 3 | 11 | 9 | 11 | 17 | 38 |
+| last180d | 2026-05-14 | 3 | 17 | 9 | 17 | 23 | 111 |
+| 360d | 2025-11-15 | 5 | 42 | 11 | 51 | 27 | 186 |
+| last720d | 2024-11-20 | 9 | 45 | 14 | 123 | 35 | 329 |
 
 ## Release assets
 
@@ -80,11 +80,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **297** distros on [repology.org](https://repology.org/project/ibus). **37** are ✅ on the latest upstream release, **240** are ⚠️ on an older version.
+Reported by **297** distros on [repology.org](https://repology.org/project/ibus). **39** are ✅ on the latest upstream release, **238** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.5.35~rc1` | ⚠️ outdated |
+| Debian unstable | `1.5.35` | ✅ latest |
 | Debian 14 | `1.5.35~rc1` | ⚠️ outdated |
 | Debian 13 | `1.5.32` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.5.34~rc2` | ⚠️ outdated |
@@ -105,4 +105,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T06:56:27Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:52:28Z._
