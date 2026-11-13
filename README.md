@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,009 · **Forks**: 213 · **Open issues**: 2,651 · **Contributors**: 4
+- **Stars**: 1,009 · **Forks**: 213 · **Open issues**: 2,652 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 68 · **Open PRs**: 16 · **Closed issues**: 2388 · **Open issues**: 263 · **Commits**: 3631
+- **Releases**: 70 · **Merged PRs**: 68 · **Open PRs**: 16 · **Closed issues**: 2389 · **Open issues**: 263 · **Commits**: 3631
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 1 | 5 | 1 | 10 | 7 |
-| last60d | 2026-09-13 | 1 | 6 | 7 | 5 | 14 | 17 |
-| 90d | 2026-08-14 | 2 | 12 | 8 | 11 | 17 | 40 |
-| last180d | 2026-05-16 | 3 | 18 | 8 | 18 | 23 | 113 |
-| 360d | 2025-11-17 | 5 | 43 | 10 | 52 | 27 | 188 |
-| last720d | 2024-11-22 | 9 | 46 | 13 | 124 | 35 | 331 |
+| 30d | 2026-10-14 | 0 | 1 | 5 | 2 | 10 | 7 |
+| last60d | 2026-09-14 | 1 | 6 | 7 | 6 | 14 | 17 |
+| 90d | 2026-08-15 | 2 | 12 | 8 | 12 | 17 | 40 |
+| last180d | 2026-05-17 | 3 | 18 | 8 | 19 | 23 | 113 |
+| 360d | 2025-11-18 | 5 | 43 | 10 | 53 | 27 | 188 |
+| last720d | 2024-11-23 | 9 | 46 | 13 | 125 | 35 | 331 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **296** distros on [repology.org](https://repology.org/project/ibus). **41** are ✅ on the latest upstream release, **235** are ⚠️ on an older version.
+Reported by **296** distros on [repology.org](https://repology.org/project/ibus). **42** are ✅ on the latest upstream release, **234** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:46:31Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:27:24Z._
