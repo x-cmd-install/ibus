@@ -26,13 +26,13 @@ Total: **123,709** lines of code across **326** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.6 / 10**
+Overall score: **3.7 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (3/10) — Found 4/11 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,010 · **Forks**: 213 · **Open issues**: 2,654 · **Contributors**: 4
+- **Stars**: 1,009 · **Forks**: 213 · **Open issues**: 2,654 · **Contributors**: 4
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 1 | 5 | 3 | 9 | 7 |
-| last60d | 2026-09-17 | 1 | 6 | 7 | 7 | 14 | 10 |
-| 90d | 2026-08-18 | 2 | 12 | 8 | 11 | 18 | 40 |
-| last180d | 2026-05-20 | 3 | 17 | 8 | 20 | 24 | 101 |
-| 360d | 2025-11-21 | 5 | 43 | 10 | 53 | 28 | 181 |
-| last720d | 2024-11-26 | 9 | 46 | 13 | 124 | 36 | 331 |
+| 30d | 2026-10-18 | 0 | 1 | 5 | 3 | 8 | 7 |
+| last60d | 2026-09-18 | 1 | 5 | 7 | 7 | 13 | 10 |
+| 90d | 2026-08-19 | 2 | 12 | 8 | 11 | 18 | 40 |
+| last180d | 2026-05-21 | 3 | 17 | 8 | 20 | 24 | 101 |
+| 360d | 2025-11-22 | 5 | 43 | 10 | 52 | 28 | 181 |
+| last720d | 2024-11-27 | 9 | 46 | 13 | 124 | 36 | 331 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **292** distros on [repology.org](https://repology.org/project/ibus). **44** are ✅ on the latest upstream release, **230** are ⚠️ on an older version.
+Reported by **294** distros on [repology.org](https://repology.org/project/ibus). **46** are ✅ on the latest upstream release, **229** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:05:10Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:15:17Z._

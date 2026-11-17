@@ -26,13 +26,13 @@ x install ibus
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.6 / 10**
+总评分: **3.7 / 10**
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (3/10) — Found 4/11 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (2/10) — Found 3/15 approved changesets -- score normalized to 2
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install ibus
 
 ## 流行度
 
-- **Star**: 1,010 · **Fork**: 213 · **开放 issue**: 2,654 · **贡献者**: 4
+- **Star**: 1,009 · **Fork**: 213 · **开放 issue**: 2,654 · **贡献者**: 4
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install ibus
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 1 | 5 | 3 | 9 | 7 |
-| last60d | 2026-09-17 | 1 | 6 | 7 | 7 | 14 | 10 |
-| 90d | 2026-08-18 | 2 | 12 | 8 | 11 | 18 | 40 |
-| last180d | 2026-05-20 | 3 | 17 | 8 | 20 | 24 | 101 |
-| 360d | 2025-11-21 | 5 | 43 | 10 | 53 | 28 | 181 |
-| last720d | 2024-11-26 | 9 | 46 | 13 | 124 | 36 | 331 |
+| 30d | 2026-10-18 | 0 | 1 | 5 | 3 | 8 | 7 |
+| last60d | 2026-09-18 | 1 | 5 | 7 | 7 | 13 | 10 |
+| 90d | 2026-08-19 | 2 | 12 | 8 | 11 | 18 | 40 |
+| last180d | 2026-05-21 | 3 | 17 | 8 | 20 | 24 | 101 |
+| 360d | 2025-11-22 | 5 | 43 | 10 | 52 | 28 | 181 |
+| last720d | 2024-11-27 | 9 | 46 | 13 | 124 | 36 | 331 |
 
 ## Release 资产
 
@@ -80,7 +80,7 @@ x install ibus
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ibus) 上共有 **292** 个发行版报告此项目。**44** 个 ✅ 已是最新上游版本，**230** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ibus) 上共有 **294** 个发行版报告此项目。**46** 个 ✅ 已是最新上游版本，**229** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -105,4 +105,4 @@ ibus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T07:05:10Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:15:18Z._
