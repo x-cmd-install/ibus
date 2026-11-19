@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4606046,
       "digest": "sha256:a4fe45deae5d751a3587a81deebe59e17962286f71af41675894fa2ab96f59f4",
-      "download_count": 201,
+      "download_count": 235,
       "created_at": "2026-11-05T01:39:46Z",
       "updated_at": "2026-11-05T01:39:49Z",
       "browser_download_url": "https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 364,
       "digest": "sha256:e7c1e05b1729ac2a238d1f2c762717f72d392c788c5221b5d73180747a55c1c4",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-11-05T01:40:05Z",
       "updated_at": "2026-11-05T01:40:06Z",
       "browser_download_url": "https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.gz.sum"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1248736,
       "digest": "sha256:5e6d888529a413c85773eafcdd3e73bf18a392a70eeb95bb3c9bfb358db7689c",
-      "download_count": 35,
+      "download_count": 41,
       "created_at": "2026-11-05T01:39:00Z",
       "updated_at": "2026-11-05T01:39:04Z",
       "browser_download_url": "https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.xz"
