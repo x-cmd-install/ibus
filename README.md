@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 3 | 4 | 5 | 7 | 11 |
-| last60d | 2026-09-25 | 0 | 6 | 6 | 8 | 11 | 15 |
-| 90d | 2026-08-26 | 2 | 14 | 6 | 14 | 14 | 38 |
-| last180d | 2026-05-28 | 3 | 20 | 7 | 21 | 22 | 90 |
-| 360d | 2025-11-29 | 5 | 46 | 9 | 55 | 26 | 187 |
-| last720d | 2024-12-04 | 9 | 49 | 12 | 126 | 34 | 337 |
+| 30d | 2026-10-26 | 0 | 3 | 4 | 5 | 7 | 11 |
+| last60d | 2026-09-26 | 0 | 6 | 6 | 8 | 11 | 15 |
+| 90d | 2026-08-27 | 1 | 12 | 6 | 13 | 14 | 38 |
+| last180d | 2026-05-29 | 3 | 20 | 7 | 21 | 22 | 90 |
+| 360d | 2025-11-30 | 5 | 46 | 9 | 55 | 26 | 187 |
+| last720d | 2024-12-05 | 9 | 49 | 12 | 126 | 34 | 337 |
 
 ## Release assets
 
@@ -78,24 +78,6 @@ Lowest-scoring checks:
 | [ibus-1.5.35.tar.xz](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.xz) | 1.2 MiB | `other` |
 | [ibus-1.5.35.tar.xz.sha256sum](https://github.com/ibus/ibus/releases/download/1.5.35/ibus-1.5.35.tar.xz.sha256sum) | 85 B | `other` |
 
-## Distribution status
-
-Reported by **292** distros on [repology.org](https://repology.org/project/ibus). **53** are ✅ on the latest upstream release, **220** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.5.35` | ✅ latest |
-| Debian 14 | `1.5.35` | ✅ latest |
-| Debian 13 | `1.5.32` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.5.34~rc2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.5.29` | ⚠️ outdated |
-| Arch | `1.5.35` | ✅ latest |
-| Fedora rawhide | `1.5.35` | ✅ latest |
-| Nix unstable | `1.5.34` | ⚠️ outdated |
-| Void | `1.5.32` | ⚠️ outdated |
-| Alpine edge | `1.5.35` | ✅ latest |
-| openSUSE Tumbleweed | `1.5.35~rc1` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ibus` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -105,4 +87,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:30:04Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:39:48Z._
