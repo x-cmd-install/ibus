@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,009 · **Forks**: 214 · **Open issues**: 2,655 · **Contributors**: 4
+- **Stars**: 1,009 · **Forks**: 214 · **Open issues**: 2,657 · **Contributors**: 4
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 71 · **Open PRs**: 15 · **Closed issues**: 2393 · **Open issues**: 262 · **Commits**: 3637
+- **Releases**: 70 · **Merged PRs**: 71 · **Open PRs**: 16 · **Closed issues**: 2393 · **Open issues**: 264 · **Commits**: 3637
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 3 | 3 | 5 | 6 | 11 |
-| last60d | 2026-09-27 | 0 | 5 | 6 | 8 | 11 | 15 |
-| 90d | 2026-08-28 | 1 | 12 | 6 | 13 | 14 | 38 |
-| last180d | 2026-05-30 | 3 | 20 | 7 | 21 | 22 | 90 |
-| 360d | 2025-12-01 | 5 | 46 | 9 | 55 | 26 | 187 |
-| last720d | 2024-12-06 | 9 | 49 | 12 | 126 | 34 | 337 |
+| 30d | 2026-10-28 | 0 | 2 | 4 | 5 | 8 | 11 |
+| last60d | 2026-09-28 | 0 | 5 | 7 | 8 | 13 | 15 |
+| 90d | 2026-08-29 | 1 | 12 | 7 | 13 | 16 | 38 |
+| last180d | 2026-05-31 | 3 | 20 | 8 | 21 | 24 | 90 |
+| 360d | 2025-12-02 | 5 | 46 | 10 | 55 | 28 | 187 |
+| last720d | 2024-12-07 | 9 | 49 | 13 | 126 | 36 | 336 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for ibus lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:42:28Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T09:05:23Z._
